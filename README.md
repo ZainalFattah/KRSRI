@@ -104,10 +104,6 @@ Ini adalah *Main Control Script* (Naskah Program Inti) berupa Jupyter Notebook i
 5. **Ekspor Hasil Benchmarking**: Kode penyusun data hasil pelatihan (mAP, speed, dll) lalu menuliskannya (*export*) dalam format rapi ke `benchmark_results.csv`.
 6. **Eksperimen Inferensi**: Blok kode khusus untuk men-tes gambar `test.jpg` dan menyimpan hasilnya ke `Dokumentasi Gambar Output/`.
 
-> [!WARNING]  
-> **JANGAN MENJALANKAN (RUN/EXECUTE) FILE `Train_and_benchmark.ipynb`**  
-> Dilarang keras mengeklik '*Run All*' atau mengeksekusi blok kode di dalam Notebook ini secara sembarangan. Proses yang ada di dalam skrip tersebut berisi alur *loop* pelatihan jaringan saraf besar secara berkelanjutan yang **memakan daya memori (RAM), GPU (Komputasi Grafis), waktu berjam-jam untuk selesai**, dan **berpotensi besar merusak/menimpa (overwrite) file *log*, *trained model weights* yang sudah bagus, maupun laporan *benchmark* yang sudah di-generate sebelumnya.** File ini hanya dibiarkan sebagai bukti rekam dokumentasi kode (sebagai referensi bacaan alur).
-
 ---
 
 **Dibuat oleh:** Zainal Fattah
